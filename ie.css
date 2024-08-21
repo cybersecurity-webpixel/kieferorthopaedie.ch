@@ -1,0 +1,147 @@
+/****** not working *******/
+/*@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) , (min-width: 1025px) {*/
+
+/**************** IE only css ****************/
+/* https://stackoverflow.com/questions/20541306/how-to-write-a-css-hack-for-ie-11 */
+
+
+@media screen and (min-width: 1025px) {
+    _:-ms-lang(x), .header-main--container-inner {
+        height: 100% !important;
+    }
+
+    _:-ms-lang(x), .footer-main--container {
+        display: block !important;
+    }
+
+    _:-ms-lang(x), .header-main--container-inner {
+        display: -ms-grid;
+    }
+
+    _:-ms-lang(x), .header-main--link {
+        -ms-grid-column: 1;
+        grid-column: 1;
+    }
+
+    _:-ms-lang(x), .header-main--nav {
+        -ms-grid-column: 2;
+        grid-column: 2;
+    }
+
+    _:-ms-lang(x), .header-main--info {
+        -ms-grid-column: 3;
+        grid-column: 3;
+    }
+
+    _:-ms-lang(x), .header-main--grid-helper {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0;
+    }
+
+    _:-ms-lang(x), .content-main--left {
+        margin-right: 30px;
+    }
+
+    _:-ms-lang(x), .header-main--phone-number {
+        display: block;
+    }
+
+    _:-ms-lang(x), .header-homepage--top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    _:-ms-lang(x), .header-homepage--nav {
+        height: 100% !important;
+    }
+
+    _:-ms-lang(x), .header-homepage--info {
+        margin-left: 50px;
+    }
+
+    _:-ms-lang(x), .header-nav-list-level-0 {
+        display: flex;
+    }
+
+    _:-ms-lang(x), .advantage-box--wrap {
+        display: flex !important;
+    }
+
+    _:-ms-lang(x), .advantage-box--placeholder {
+        width: 50%;
+        height: 100% !important;
+    }
+
+    /*.advantage-box--text*/
+    _:-ms-lang(x), .advantage-box--wrap div:first-child {
+        width: 50%;
+    }
+
+    _:-ms-lang(x), .eyecatcher-box--placeholder {
+        height: 100% !important;
+    }
+
+    _:-ms-lang(x), .header-main--ceo {
+        padding-right: 30px !important;
+    }
+
+    _:-ms-lang(x), .text-two-cols--text-wrap div:first-child {
+        margin-right: 50px;
+    }
+
+    _:-ms-lang(x), .content-main--columns {
+        -ms-grid-columns: 330px 1fr !important;
+    }
+
+    _:-ms-lang(x), .image-gallery--item-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        margin: -15px;
+    }
+
+    _:-ms-lang(x), .image-gallery--item {
+        max-width: 33.3%;
+        flex: 33.3%;
+        padding: 15px;
+    }
+
+    _:-ms-lang(x), .image-gallery--item:after {
+        left: 15px !important;
+        bottom: 5px !important;
+    }
+
+    _:-ms-lang(x), .text-image--container-inner.text-image--text-right .text-image--text-wrap {
+        -ms-grid-column: 2 !important;
+    }
+
+    _:-ms-lang(x), .text-image--container-inner.text-image--text-right .text-image--image-wrap {
+        margin-right: 30px;
+        margin-left: 0 !important;
+        -ms-grid-column: 1 !important;
+    }
+
+    _:-ms-lang(x), .text-image--container-inner .text-image--image-wrap {
+        margin-left: 30px;
+    }
+
+    _:-ms-lang(x), .text-image--image img {
+        width: 100% !important;
+    }
+
+    _:-ms-lang(x), .header-nav-link-level-0 {
+        background-size: 16px !important;
+    }
+
+    _:-ms-lang(x), .header-main--nav {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1471px) {
+    _:-ms-lang(x), .text-two-cols--text-wrap div:first-child {
+        margin-right: 100px;
+    }
+}
+
